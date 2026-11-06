@@ -1,45 +1,25 @@
-[README.md](https://github.com/user-attachments/files/34398917/README.md)
-# ModelWatch
+# ModelWatch Week 5 | Evaluation Notebook Development
 
-**RAG quality monitoring and human-review workflow | Georgetown applied AI project**
+[Visit the flagship interactive ModelWatch repo](https://github.com/msb24/modelwatch-rag-monitor) · [Try the simulated interactive dashboard](https://msb24.github.io/modelwatch-rag-monitor/)
 
-## The problem
+This repository preserves the **three notebook iterations** from my Georgetown AI development work. It documents how I explored monitoring a support RAG assistant and designing evidence-led human review. The data and outcomes are synthetic or illustrative.
 
-An AI assistant can produce a fluent answer even when retrieval fails, citations mismatch supporting evidence, or operational quality is deteriorating. An operations team needs measurable signals and a clear route from an observed issue to a human decision.
+## What to open
 
-## What I designed and tested
+- `MSB_ModelWatch_Week5_FINAL.ipynb` — original evaluated notebook.
+- `ModelWatch_Week5_MVP_v3_tests.ipynb` — test and validation iteration.
+- `ModelWatch_Week5_MVP_v4_dashboard.ipynb` — dashboard iteration.
 
-- A monitoring approach for a support-oriented retrieval-augmented assistant using retrieval success, citation mismatch, CSAT, and p95 latency.
-- Notebook-based evaluation logic and testing scenarios using synthetic or illustrative inputs.
-- Human-review and escalation concepts that require evidence before a quality signal is converted into an incident or action.
-- An interface concept that connects performance signals to reviewer ownership, incident history, and resolution steps.
+Open any notebook directly on GitHub to inspect the cells. For execution, download the notebook, open Google Colab and use **File → Upload notebook**. Additional packages may be necessary depending on the notebook version.
 
-## Explore the work
+## What the work evaluates
 
-The source repository contains three development-stage Jupyter notebooks:
+- Retrieval success and citation mismatch evidence.
+- CSAT and p95 response latency reporting.
+- Incident severity, data validation, human review, and auditability.
 
-- `MSB_ModelWatch_Week5_FINAL.ipynb`
-- `ModelWatch_Week5_MVP_v3_tests.ipynb`
-- `ModelWatch_Week5_MVP_v4_dashboard.ipynb`
+## Why preserve multiple versions?
 
-These notebook versions document the development of the project. Read them in GitHub's notebook viewer or open them in Jupyter or Google Colab to inspect the code and demonstrations.
+They show progression through testing and dashboard design. The separate [flagship repository](https://github.com/msb24/modelwatch-rag-monitor) is the best starting point for recruiters who want a complete case study and interactive scenario explorer.
 
-## Evaluation questions
-
-1. Did the retrieval step return relevant evidence?
-2. Does the response's citation actually support its claim?
-3. Do aggregate quality scores conceal severe individual cases?
-4. When should a human investigate, hold, or roll back an AI change?
-
-## Scope and limits
-
-This is a graduate applied AI project and simulation using synthetic or illustrative data. It does not claim production integration, a deployed model-service API, or clinical validation. Metrics and scenarios demonstrate a monitoring design, not measured outcomes from a real customer system.
-
-## Future work
-
-- Consolidate notebooks into a single documented demonstration.
-- Add a small, reproducible synthetic evaluation dataset and explicit expected results.
-- Add screenshots showing healthy and degraded conditions.
-- Expand automated checks for invalid inputs and missing source evidence.
-
-**Designed by Maya Kalantari | M.S. Artificial Intelligence Management, Georgetown University**
+**Boundary:** Student-created evaluation exercises; no production model inference or customer telemetry.
