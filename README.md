@@ -61,7 +61,7 @@ The published Lovable interface and notebook use **synthetic demonstration data*
 
 ## 👩🏻‍💻 About the creator
 
-**Maya Kalantari**  
+**Maya K**  
 M.S. Artificial Intelligence Management, Georgetown University  
 Washington, DC
 
