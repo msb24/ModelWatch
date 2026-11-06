@@ -1,6 +1,6 @@
 # ModelWatch Week 5 | Evaluation Notebook Development
 
-[Visit the flagship interactive ModelWatch repo](https://github.com/msb24/modelwatch-rag-monitor) · [Try the simulated interactive dashboard](https://msb24.github.io/modelwatch-rag-monitor/)
+1.[Try the interactive ModelWatch demo](https://modelwatch-ai-prototype-msk.lovable.app/) · [Explore the Python/Jupyter notebook](./ModelWatch%20RAG%20Monitor.ipynb)
 
 This repository preserves the **three notebook iterations** from my Georgetown AI development work. It documents how I explored monitoring a support RAG assistant and designing evidence-led human review. The data and outcomes are synthetic or illustrative.
 
